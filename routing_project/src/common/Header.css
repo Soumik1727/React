@@ -1,0 +1,32 @@
+nav{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 0px;        /* Ul brings margin & padding by default*/
+    padding: 0px;       /* So, make them 0*/
+}
+p{
+    text-align: center;
+}
+
+.container{
+    width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 1px solid red;
+}
+.blogItems{
+    flex-basis: 23%;
+    margin: 1%;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    text-align: center;
+   padding-bottom: 10px;
+}
